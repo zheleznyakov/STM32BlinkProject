@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g2 -Map=BlinkProject.map -O0 --gc-sections -LD:/workspace/BlinkProject -TD:/workspace/BlinkProject/stm32f103c8tx_flash.ld -g">
+      <target file="BlinkProject.elf" lastModified="1578592ac0d">
+         <source file="..\obj\stm32f1xx_hal_dma.o" lastModified="157857bfe45"/>
+         <source file="..\obj\system_stm32f1xx.o" lastModified="157857bfaf9"/>
+         <source file="..\obj\stm32f1xx_hal_flash_ex.o" lastModified="157857bfffb"/>
+         <source file="..\obj\stm32f1xx_hal_cortex.o" lastModified="157857bfa88"/>
+         <source file="..\obj\stm32f1xx_hal_gpio.o" lastModified="157857bfda0"/>
+         <source file="..\obj\stm32f1xx_hal_tim_ex.o" lastModified="157857c0081"/>
+         <source file="..\obj\stm32f1xx_hal_rcc_ex.o" lastModified="157857bf78a"/>
+         <source file="..\obj\stm32f1xx_hal.o" lastModified="157857bf8bd"/>
+         <source file="..\obj\stm32f1xx_hal_gpio_ex.o" lastModified="157857bf9d2"/>
+         <source file="..\obj\stm32f1xx_it.o" lastModified="157857bf946"/>
+         <source file="..\obj\startup_stm32f103xb.o" lastModified="157857bfc6b"/>
+         <source file="..\obj\main.o" lastModified="1578592a8ee"/>
+         <source file="..\obj\stm32f1xx_hal_msp.o" lastModified="157857bfed0"/>
+         <source file="..\obj\stm32f1xx_hal_flash.o" lastModified="157857bfd07"/>
+         <source file="..\obj\stm32f1xx_hal_tim.o" lastModified="157857bff55"/>
+         <source file="..\obj\stm32f1xx_hal_pwr.o" lastModified="157857bf823"/>
+         <source file="..\obj\stm32f1xx_hal_rcc.o" lastModified="157857bfbbd"/>
+      </target>
+   </processor>
+</history>
